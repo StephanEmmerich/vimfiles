@@ -1,0 +1,115 @@
+" enable all features
+set nocompatible
+
+" pathogen
+filetype off
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
+
+filetype on
+filetype indent on
+filetype plugin on
+
+" word wrap
+set wrap
+
+" use tabs, tabsize 4 spaces
+set tabstop=4
+set smarttab
+set shiftwidth=4
+set autoindent
+
+set backspace=start,indent
+
+" ruby
+autocmd FileType ruby,eruby set expandtab tabstop=2 shiftwidth=2 tabstop=2
+autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
+autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+
+" line numbers
+set number
+
+" highlight the searchterms
+set hlsearch
+
+" jump to matches while typing
+set incsearch
+
+" ignore case while searching if all lowercase
+set ignorecase
+set smartcase
+
+" don't wrap words
+set textwidth=0
+
+" history and undo
+set history=50
+set undolevels=1000
+
+" show matching braces
+set showmatch
+
+" enable syntax highlighting
+syntax on
+set bg=dark
+
+" enable 256 color terminal
+set t_Co=256
+
+" always show the menu, insert longest match
+set completeopt=menuone,longest
+
+" bash-like tab completion
+set wildmode=longest,list,full
+
+" allows changing buffer with unsaved changes
+"set hidden
+
+" colorscheme
+colorscheme molokai
+
+set grepprg=ack-grep
+set grepformat=%f:%l:%m
+
+" disable F1 key
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
+" movement by screenline instead of file line
+nnoremap j gj
+nnoremap k gk
+
+" tag list
+nmap <F4> :TlistToggle<CR>
+nmap <F5> :TlistUpdate<CR>
+
+" next/prev tab
+nnoremap <c-l> gt
+nnoremap <c-h> gT
+
+" toggle NERDTree with \d
+map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
+
+" remove trailing white-spaces with \W
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+
+" remove highlight on \<space>
+nnoremap <leader><space> :noh<cr>
+
+compiler ruby
+
+" open browser
+:command -bar -nargs=1 OpenURL :!sensible-browser <args>
+
+" change default filetype back to 'tex' for latex files
+let g:tex_flavor='latex'
+
+" snipMate
+let g:snips_author = 'Joel Stemmer'
+
+" disable indentation for pasting
+nnoremap <F2> :set invpaste paste?<CR>
+
