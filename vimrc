@@ -113,3 +113,5 @@ let g:snips_author = 'Joel Stemmer'
 " disable indentation for pasting
 nnoremap <F2> :set invpaste paste?<CR>
 
+" bufexplorer: map b
+nmap <silent> <unique> <leader>b :BufExplorer<CR>
