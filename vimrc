@@ -115,3 +115,6 @@ nnoremap <F2> :set invpaste paste?<CR>
 
 " bufexplorer: map b
 nmap <silent> <unique> <leader>b :BufExplorer<CR>
+
+" ignore files
+set wildignore+=*.class,*.rbx
