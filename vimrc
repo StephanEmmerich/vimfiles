@@ -91,7 +91,7 @@ nnoremap <c-l> gt
 nnoremap <c-h> gT
 
 " toggle NERDTree with \d
-map <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
+map <silent> <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 
 " remove trailing white-spaces with \W
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
@@ -120,4 +120,13 @@ nmap <silent> <unique> <leader>b :BufExplorer<CR>
 set wildignore+=*.class,*.rbx
 
 " command-t to <leader>v
-nmap <leader>v :CommandT<CR>
+nmap <silent> <leader>v :CommandT<CR>
+
+" taglist
+nmap <silent> <leader>g :TlistToggle<CR>
+
+" taglist: focus window on open
+let Tlist_GainFocus_On_ToggleOpen = 1
+
+" taglist: sort tags by name
+let Tlist_Sort_Type = "name"
