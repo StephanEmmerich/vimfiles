@@ -118,3 +118,6 @@ nmap <silent> <unique> <leader>b :BufExplorer<CR>
 
 " ignore files
 set wildignore+=*.class,*.rbx
+
+" command-t to <leader>v
+nmap <leader>v :CommandT<CR>
