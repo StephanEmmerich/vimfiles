@@ -65,7 +65,7 @@ set completeopt=menuone,longest
 set wildmode=longest,list,full
 
 " allows changing buffer with unsaved changes
-"set hidden
+set hidden
 
 " colorscheme
 colorscheme molokai
