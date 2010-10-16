@@ -128,5 +128,8 @@ nmap <silent> <leader>g :TlistToggle<CR>
 " taglist: focus window on open
 let Tlist_GainFocus_On_ToggleOpen = 1
 
+" taglist: taglist window on the right side
+let Tlist_Use_Right_Window = 1
+
 " taglist: sort tags by name
 let Tlist_Sort_Type = "name"
