@@ -45,7 +45,7 @@ set smartcase
 set textwidth=0
 
 " history and undo
-set history=50
+set history=1000
 set undolevels=1000
 
 " show matching braces
