@@ -90,6 +90,9 @@ nmap <F5> :TlistUpdate<CR>
 nnoremap <c-l> gt
 nnoremap <c-h> gT
 
+" set , as leader
+let mapleader = ","
+
 " toggle NERDTree with \d
 map <silent> <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 
