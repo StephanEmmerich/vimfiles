@@ -136,3 +136,6 @@ let Tlist_Use_Right_Window = 1
 
 " taglist: sort tags by name
 let Tlist_Sort_Type = "name"
+
+" gitolite
+autocmd FileType gitolite set expandtab tabstop=4 shiftwidth=4 tabstop=4
