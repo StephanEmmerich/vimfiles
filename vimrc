@@ -73,6 +73,10 @@ colorscheme molokai
 set grepprg=ack-grep
 set grepformat=%f:%l:%m
 
+" statusline
+set statusline=%t%m%r\ %{fugitive#statusline()}%=[%{&ff}%Y]\ [%04l,%04v,%p%%]
+set laststatus=2
+
 " disable F1 key
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
