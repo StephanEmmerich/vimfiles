@@ -101,7 +101,7 @@ let mapleader = ","
 map <silent> <leader>d :execute 'NERDTreeToggle ' . getcwd()<CR>
 
 " remove trailing white-spaces with \W
-nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <leader>W :%s/\s\+$//<cr>:noh<CR>
 
 " remove highlight on \<space>
 nnoremap <leader><space> :noh<cr>
