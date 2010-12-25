@@ -77,6 +77,9 @@ set grepformat=%f:%l:%m
 set statusline=%t%m%r\ %{fugitive#statusline()}%=[%{&ff}%Y]\ [%04l,%04v,%p%%]
 set laststatus=2
 
+" highlight current line
+set cursorline
+
 " disable F1 key
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
