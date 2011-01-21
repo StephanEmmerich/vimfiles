@@ -90,8 +90,8 @@ nnoremap j gj
 nnoremap k gk
 
 " tag list
-nmap <F4> :TlistToggle<CR>
-nmap <F5> :TlistUpdate<CR>
+"nmap <F4> :TlistToggle<CR>
+"nmap <F5> :TlistUpdate<CR>
 
 " next/prev tab
 nnoremap <c-l> gt
@@ -134,6 +134,7 @@ set wildignore+=*.class,*.rbx
 
 " command-t to <leader>v
 nmap <silent> <leader>v :CommandT<CR>
+nmap <F5> :CommandTFlush<CR>
 
 " taglist
 nmap <silent> <leader>g :TlistToggle<CR>
