@@ -22,7 +22,7 @@ set autoindent
 set backspace=start,indent
 
 " ruby
-autocmd FileType ruby,eruby set expandtab tabstop=2 shiftwidth=2 tabstop=2
+autocmd FileType ruby,eruby,cucumber set expandtab tabstop=2 shiftwidth=2 tabstop=2
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
 autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
