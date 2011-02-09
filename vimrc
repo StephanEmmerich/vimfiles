@@ -109,6 +109,9 @@ let NERDTreeWinSize = 40
 " remove trailing white-spaces with \W
 nnoremap <leader>W :%s/\s\+$//<cr>:noh<CR>
 
+" toggle word wrap
+nnoremap <leader>w :set wrap!<cr>
+
 " remove highlight on \<space>
 nnoremap <leader><space> :noh<cr>
 
