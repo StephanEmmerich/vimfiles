@@ -10,8 +10,8 @@ filetype on
 filetype indent on
 filetype plugin on
 
-" word wrap
-set wrap
+" disable word wrap
+set nowrap
 
 " use tabs, tabsize 4 spaces
 set tabstop=4
