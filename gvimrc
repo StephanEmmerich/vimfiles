@@ -1,4 +1,5 @@
-set guifont=Monaco\ 11
+"set guifont=Monaco\ 11
+set guifont=Inconsolata\ 13
 set lines=40 columns=140
 
 " remove menu etc
