@@ -159,3 +159,6 @@ autocmd FileType gitolite set expandtab tabstop=4 shiftwidth=4 tabstop=4
 
 " tabular: align ruby symbols
 nmap <leader>r: :Tabularize / :/l0<cr>
+
+" enable matchit for vim-textobj-rubyblock plugin
+runtime macros/matchit.vim
