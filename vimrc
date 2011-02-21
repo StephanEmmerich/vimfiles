@@ -78,7 +78,10 @@ set statusline=%t%m%r\ %{fugitive#statusline()}%=[%{&ff}%Y]\ [%04l,%04v,%p%%]
 set laststatus=2
 
 " highlight current line
-set cursorline
+"set cursorline
+
+" show command
+set showcmd
 
 " disable F1 key
 inoremap <F1> <ESC>
