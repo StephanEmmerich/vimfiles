@@ -143,7 +143,7 @@ nmap <silent> <leader>v :CommandT<CR>
 nmap <F5> :CommandTFlush<CR>
 
 " taglist
-nmap <silent> <leader>g :TlistToggle<CR>
+nmap <silent> <leader>t :TlistToggle<CR>
 
 " taglist: focus window on open
 let Tlist_GainFocus_On_ToggleOpen = 1
@@ -165,3 +165,10 @@ nmap <leader>r: :Tabularize / :/l0<cr>
 
 " enable matchit for vim-textobj-rubyblock plugin
 runtime macros/matchit.vim
+
+" fugitive mappings
+nmap <leader>go :Gbrowse<cr>
+nmap <leader>gb :Gblame<cr>
+nmap <leader>gs :Gstatus<cr>
+nmap <leader>gc :Gcommit<cr>
+nmap <leader>gl :Glog<cr>
