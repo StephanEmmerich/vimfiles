@@ -92,10 +92,6 @@ vnoremap <F1> <ESC>
 nnoremap j gj
 nnoremap k gk
 
-" tag list
-"nmap <F4> :TlistToggle<CR>
-"nmap <F5> :TlistUpdate<CR>
-
 " next/prev tab
 nnoremap <c-l> gt
 nnoremap <c-h> gT
@@ -133,17 +129,17 @@ let g:snips_author = 'Joel Stemmer'
 nnoremap <F2> :set invpaste paste?<CR>
 
 " bufexplorer: map b
-nmap <silent> <unique> <leader>b :BufExplorer<CR>
+nnoremap <silent> <unique> <leader>b :BufExplorer<CR>
 
 " ignore files
 set wildignore+=*.class,*.rbc
 
 " command-t to <leader>v
-nmap <silent> <leader>v :CommandT<CR>
-nmap <F5> :CommandTFlush<CR>
+nnoremap <silent> <leader>v :CommandT<CR>
+nnoremap <F5> :CommandTFlush<CR>
 
 " taglist
-nmap <silent> <leader>t :TlistToggle<CR>
+nnoremap <silent> <leader>t :TlistToggle<CR>
 
 " taglist: focus window on open
 let Tlist_GainFocus_On_ToggleOpen = 1
@@ -161,14 +157,14 @@ let Tlist_WinWidth = 40
 autocmd FileType gitolite set expandtab tabstop=4 shiftwidth=4 tabstop=4
 
 " tabular: align ruby symbols
-nmap <leader>r: :Tabularize / :/l0<cr>
+nnoremap <leader>r: :Tabularize / :/l0<cr>
 
 " enable matchit for vim-textobj-rubyblock plugin
 runtime macros/matchit.vim
 
 " fugitive mappings
-nmap <leader>go :Gbrowse<cr>
-nmap <leader>gb :Gblame<cr>
-nmap <leader>gs :Gstatus<cr>
-nmap <leader>gc :Gcommit<cr>
-nmap <leader>gl :Glog<cr>
+nnoremap <leader>go :Gbrowse<cr>
+nnoremap <leader>gb :Gblame<cr>
+nnoremap <leader>gs :Gstatus<cr>
+nnoremap <leader>gc :Gcommit<cr>
+nnoremap <leader>gl :Glog<cr>
