@@ -18,3 +18,6 @@ set guioptions-=r
 
 " use console dialog box instead of GUI
 set guioptions+=c
+
+" ctrl+space for autocompletion
+inoremap <C-Space> <C-n>
