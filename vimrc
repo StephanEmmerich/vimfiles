@@ -169,3 +169,6 @@ nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gl :Glog<cr>
 nnoremap <leader>gw :Gwrite<cr>
+
+" go language code formatter
+nnoremap <leader>f :Fmt<cr>
