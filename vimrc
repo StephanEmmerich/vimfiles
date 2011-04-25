@@ -168,3 +168,4 @@ nnoremap <leader>gb :Gblame<cr>
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gl :Glog<cr>
+nnoremap <leader>gw :Gwrite<cr>
