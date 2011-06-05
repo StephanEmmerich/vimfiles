@@ -20,7 +20,7 @@ set guioptions-=r
 set guioptions+=c
 
 " ctrl+space for autocompletion
-inoremap <C-Space> <C-n>
+inoremap <C-Space> <C-x><C-o>
 "
 " colorscheme
 colorscheme solarized
