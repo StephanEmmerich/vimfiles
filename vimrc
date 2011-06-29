@@ -135,7 +135,7 @@ nnoremap <F2> :set invpaste paste?<CR>
 nnoremap <silent> <unique> <leader>b :BufExplorer<CR>
 
 " ignore files
-set wildignore+=*.class,*.rbc
+set wildignore+=*.class,*.rbc,*.6
 
 " command-t to <leader>v
 nnoremap <silent> <leader>v :CommandT<CR>
