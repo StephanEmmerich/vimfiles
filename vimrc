@@ -105,6 +105,9 @@ nnoremap <leader>d :NERDTreeToggle<cr>
 " NERDTree size
 let NERDTreeWinSize = 40
 
+" NERDTree ignore files
+let NERDTreeIgnore=['\~$', '\.6$']
+
 " remove trailing white-spaces with \W
 nnoremap <leader>W :%s/\s\+$//<cr>:noh<CR>
 
