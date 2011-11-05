@@ -99,7 +99,7 @@ nnoremap <c-h> gT
 " set , as leader
 let mapleader = ","
 
-" toggle NERDTree with \d
+" toggle NERDTree with <leader>d
 nnoremap <leader>d :NERDTreeToggle<cr>
 
 " NERDTree size
@@ -108,16 +108,19 @@ let NERDTreeWinSize = 40
 " NERDTree ignore files
 let NERDTreeIgnore=['\~$', '\.6$']
 
-" remove trailing white-spaces with \W
+" remove trailing white-spaces with <leader>W
 nnoremap <leader>W :%s/\s\+$//<cr>:noh<CR>
 
 " toggle word wrap
 nnoremap <leader>w :set wrap!<cr>
 
-" remove highlight on \<space>
+" remove highlight on <leader><space>
 nnoremap <leader><space> :noh<cr>
 
-compiler ruby
+"compiler ruby
+
+" compile with <leader>m
+nnoremap <leader>m :make<cr>
 
 " open browser
 :command -bar -nargs=1 OpenURL :!sensible-browser <args>
