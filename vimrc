@@ -179,5 +179,8 @@ nnoremap <leader>gw :Gwrite<cr>
 " go language code formatter
 nnoremap <leader>f :Fmt<cr>
 
+" godoc
+nnoremap <leader>gd :Godoc
+
 " ctrl+space for autocompletion
 inoremap <Nul> <C-n>
