@@ -68,7 +68,8 @@ set wildmode=longest,list,full
 set hidden
 
 " colorscheme
-colorscheme molokai
+let g:solarized_termcolors=256
+colorscheme solarized
 
 set grepprg=ack-grep
 set grepformat=%f:%l:%m
