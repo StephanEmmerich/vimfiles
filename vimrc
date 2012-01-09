@@ -185,3 +185,6 @@ nnoremap <leader>gd :Godoc
 
 " ctrl+space for autocompletion
 inoremap <Nul> <C-n>
+
+" Use fancy symbols in statusline
+let g:Powerline_symbols = "fancy"
