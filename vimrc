@@ -118,8 +118,6 @@ nnoremap <leader>w :set wrap!<cr>
 " remove highlight on <leader><space>
 nnoremap <leader><space> :noh<cr>
 
-"compiler ruby
-
 " compile with <leader>m
 nnoremap <leader>m :make<cr>
 
@@ -128,9 +126,6 @@ nnoremap <leader>m :make<cr>
 
 " change default filetype back to 'tex' for latex files
 let g:tex_flavor='latex'
-
-" snipMate
-let g:snips_author = 'Joel Stemmer'
 
 " disable indentation for pasting
 nnoremap <F2> :set invpaste paste?<CR>
@@ -168,14 +163,6 @@ nnoremap <leader>r: :Tabularize / :/l0<cr>
 
 " enable matchit for vim-textobj-rubyblock plugin
 runtime macros/matchit.vim
-
-" fugitive mappings
-nnoremap <leader>go :Gbrowse<cr>
-nnoremap <leader>gb :Gblame<cr>
-nnoremap <leader>gs :Gstatus<cr>
-nnoremap <leader>gc :Gcommit<cr>
-nnoremap <leader>gl :Glog<cr>
-nnoremap <leader>gw :Gwrite<cr>
 
 " go language code formatter
 nnoremap <leader>f :Fmt<cr>
