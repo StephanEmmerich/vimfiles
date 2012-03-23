@@ -61,7 +61,7 @@ syn keyword tmuxOptsSet mouse-select-pane message-limit quiet escape-time
 syn keyword tmuxOptsSet pane-active-border-bg pane-active-border-fg
 syn keyword tmuxOptsSet pane-border-bg pane-border-fg message-[command-]fg
 syn keyword tmuxOptsSet display-panes-active-colour alternate-screen
-syn keyword tmuxOptsSet detach-on-destroy word-separators
+syn keyword tmuxOptsSet detach-on-destroy word-separators mouse-resize-pane
 syn keyword tmuxOptsSet destroy-unattached exit-unattached set-clipboard
 syn keyword tmuxOptsSet bell-on-alert mouse-select-window mouse-utf8
 
