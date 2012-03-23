@@ -174,7 +174,7 @@ nnoremap <leader>f :Fmt<cr>
 nnoremap <leader>gd :Godoc
 
 " ctrl+space for autocompletion
-inoremap <Nul> <C-n>
+inoremap <Nul> <C-x><C-o>
 
 " Use fancy symbols in statusline
 let g:Powerline_symbols = "fancy"
