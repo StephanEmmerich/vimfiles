@@ -10,6 +10,9 @@ filetype on
 filetype indent on
 filetype plugin on
 
+" lower timeout length
+set ttimeoutlen=100
+
 " disable word wrap
 set nowrap
 
