@@ -160,6 +160,8 @@ nnoremap <F5> :CommandTFlush<CR>
 
 " tagbar
 nnoremap <silent> <leader>t :TagbarToggle<CR>
+nnoremap <silent> <leader>T :TagbarOpenAutoClose<CR>
+let g:tagbar_width = 60
 
 " gitolite
 autocmd FileType gitolite set expandtab tabstop=4 shiftwidth=4 tabstop=4
