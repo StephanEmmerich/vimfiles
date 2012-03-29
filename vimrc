@@ -172,6 +172,9 @@ nnoremap <leader>r: :Tabularize / :/l0<cr>
 " enable matchit for vim-textobj-rubyblock plugin
 runtime macros/matchit.vim
 
+" gitv mapping
+nnoremap <leader>k :Gitv<cr>
+
 " go language code formatter
 nnoremap <leader>f :Fmt<cr>
 
