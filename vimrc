@@ -186,3 +186,6 @@ inoremap <Nul> <C-x><C-o>
 
 " Use fancy symbols in statusline
 let g:Powerline_symbols = "fancy"
+
+" gundo
+nnoremap <leader>u :GundoToggle<cr>
