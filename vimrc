@@ -96,7 +96,8 @@ vnoremap <F1> <ESC>
 nnoremap j gj
 nnoremap k gk
 
-" next/prev tab
+" tabs
+nnoremap <c-n> :tabnew<cr>
 nnoremap <c-l> gt
 nnoremap <c-h> gT
 
