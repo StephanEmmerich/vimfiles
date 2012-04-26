@@ -186,7 +186,7 @@ nnoremap <leader>gd :Godoc
 inoremap <Nul> <C-x><C-o>
 
 " Use fancy symbols in statusline
-let g:Powerline_symbols = "fancy"
+let g:Powerline_symbols = "compatible"
 
 " gundo
 nnoremap <leader>u :GundoToggle<cr>
