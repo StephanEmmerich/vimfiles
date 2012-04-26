@@ -104,7 +104,7 @@ nnoremap <c-h> gT
 let mapleader = ","
 
 " toggle NERDTree with <leader>d
-nnoremap <leader>d :NERDTreeToggle<cr>
+nnoremap <silent> <leader>d :NERDTreeToggle<cr>
 
 " NERDTree size
 let NERDTreeWinSize = 40
