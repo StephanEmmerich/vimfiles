@@ -13,6 +13,9 @@ filetype plugin on
 " lower timeout length
 set ttimeoutlen=100
 
+" disable esckeys
+set noesckeys
+
 " disable word wrap
 set nowrap
 
