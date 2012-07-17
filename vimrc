@@ -135,7 +135,7 @@ nnoremap <leader>m :make<cr>
 let g:tex_flavor='latex'
 
 " disable indentation for pasting
-nnoremap <F2> :set invpaste paste?<CR>
+nnoremap <F2> :set invpaste<CR>
 
 " bufexplorer: map b
 nnoremap <silent> <unique> <leader>b :BufExplorer<CR>
