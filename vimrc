@@ -143,9 +143,8 @@ nnoremap <silent> <unique> <leader>b :BufExplorer<CR>
 " ignore files
 set wildignore+=*.class,*.rbc,*.6
 
-" command-t to <leader>v
-nnoremap <silent> <leader>v :CommandT<CR>
-nnoremap <F5> :CommandTFlush<CR>
+" ctrlp to <leader>v
+let g:ctrlp_map = '<leader>v'
 
 " taglist
 "nnoremap <silent> <leader>t :TlistToggle<CR>
