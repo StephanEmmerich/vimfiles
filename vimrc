@@ -146,21 +146,6 @@ set wildignore+=*.class,*.rbc,*.6
 " ctrlp to <leader>v
 let g:ctrlp_map = '<leader>v'
 
-" taglist
-"nnoremap <silent> <leader>t :TlistToggle<CR>
-
-" taglist: focus window on open
-"let Tlist_GainFocus_On_ToggleOpen = 1
-
-" taglist: taglist window on the right side
-"let Tlist_Use_Right_Window = 1
-
-" taglist: sort tags by name
-"let Tlist_Sort_Type = "name"
-
-" taglist: increase window width
-"let Tlist_WinWidth = 40
-
 " tagbar
 nnoremap <silent> <leader>t :TagbarToggle<CR>
 nnoremap <silent> <leader>T :TagbarOpenAutoClose<CR>
