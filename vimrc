@@ -27,6 +27,9 @@ set autoindent
 
 set backspace=start,indent
 
+" enable title
+set title
+
 " ruby
 autocmd FileType ruby,eruby,cucumber set expandtab tabstop=2 shiftwidth=2 tabstop=2
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
