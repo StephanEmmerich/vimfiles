@@ -149,6 +149,9 @@ set wildignore+=*.class,*.rbc,*.6
 " ctrlp to <leader>v
 let g:ctrlp_map = '<leader>v'
 
+" only update ctrlp window after typing has stopped
+let g:ctrlp_lazy_update = 1
+
 " tagbar
 nnoremap <silent> <leader>t :TagbarToggle<CR>
 nnoremap <silent> <leader>T :TagbarOpenAutoClose<CR>
