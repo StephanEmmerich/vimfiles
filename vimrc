@@ -108,7 +108,7 @@ nnoremap <c-l> gt
 nnoremap <c-h> gT
 
 " set , as leader
-let mapleader = ","
+"let mapleader = ","
 
 " toggle NERDTree with <leader>d
 nnoremap <silent> <leader>d :NERDTreeToggle<cr>
