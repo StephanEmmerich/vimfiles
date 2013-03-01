@@ -4,7 +4,7 @@ Vim config
 Installation
 ------------
 
-	$ git clone git://github.com/jstemmer/dotvim.git ~/.vim
+	$ git clone git@github.com:StephanEmmerich/vimfiles.git
 
 	$ cd ~/.vim
 	$ git submodule init
