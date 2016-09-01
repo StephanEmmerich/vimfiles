@@ -14,6 +14,7 @@ Installation
 	$ ln -s ~/.vim/gvimrc ~/.gvimrc
 
 For proper transparency with terminal:
+
 	$ vim ~/.vim/bundle/solarized/colors/solarized.vim
 	Comment line '"exe "hi! LineNr"         .s:fmt_none   .s:fg_base01 .s:bg_base0"' 
 References
